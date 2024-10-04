@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    background: #F9FAFF;
+    
+}
+
+/* Header style start */
+
+.site-header {
+    padding: 51px 0 98px;
+}
+
+.site-logo{
+    vertical-align: middle;
+    margin-right: 253px;
+}
+.header-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-item {
+    display: inline-block;
+    margin-left: 60px;
+}
+.remove-margin{
+    margin-left: 0;
+}
+.header-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    color: #3d3d3f;
+    
+}
+
+.active{
+    color: #F35F2F;
+
+}
+.header-contact-btn {
+    width: 118px;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    text-align: center;    
+    vertical-align: middle;
+    margin-left: 249px;
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* Header style end */
+
+
+/* Hero style start  */
+.hero-section {
+    margin-bottom: 120px;
+}
+
+.hero-content-wrapper {
+    width: 468px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.hero-title {
+    color: #3d3d3f;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 85.32px;
+    margin-bottom: 42px;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    margin-bottom: 40px;
+    color: #3d3d3f;
+}
+.hero-btn {
+    width: 219px;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 400;  
+    line-height: 23.7px;
+    text-align: center;    
+    vertical-align: middle;
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.hero-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+}
+
+/* Hero style end  */
+
+/* Services style start */
+
+.services-section {
+    margin-bottom: 60px;
+}
+
+.services-title {
+    margin-bottom: 55px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    color: #3d3d3f;
+    
+}
+.services-list {
+    padding: 36px 0;
+    border: 2px solid #EBEBEBCC;
+    border-radius: 17px;
+    
+}
+.services-item {
+    display: inline-block;
+    width: 33%;
+    padding: 18px 0;
+    text-align: center;
+    border-left: 2px solid #EBEBEBCC;
+}
+.remove-border{
+    border-left: none;
+}
+.services-icon {
+    margin-bottom: 23px;
+}
+.services-count {
+    display: block;
+    margin-bottom: 13px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+    
+}
+.services-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.25px;
+    color: #3d3d3f;
+    opacity: 0.7;
+}
+
+/* Services style end */
+
+/* Offering styles start */
+
+.offering-section {
+    margin-bottom: 120px;
+}
+.offering-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    color: #3d3d3f;
+    
+}
+.offering-list {
+    margin-top: 117px;
+}
+.offering-item {
+    display: inline-block;
+    width: 356px;
+    padding: 0 35px 39px 35px;
+    text-align: center;
+    background-color: #f9f6f6;
+    border-radius: 23px;
+    margin-left: 47px;
+}
+.remove-space {
+    margin-left: 0;
+}
+.offering-icon-wrapper {
+    margin: 0 auto;
+    margin-top: -50px;
+    width: 102px;
+    height: 102px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+.offering-img {
+    margin-top: 25px;
+}
+.offering-subtitle {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    color: #3d3d3f;
+    
+}
+.offering-text {
+    margin-bottom: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #595959;
+
+    
+}
+.offering-arrow-icon-wrapper {
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 42px;
+    height: 42px;
+    background-color: #f0f0f4;
+    border-radius: 50%;
+    text-align: center;
+}
+.offering-arrow-icon {
+    margin-top: 16px;
+}
+.active-bg {
+    background-color: #FF7A50D4;
+
+}
+
+/* Offering styles end */
